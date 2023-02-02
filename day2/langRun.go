@@ -54,3 +54,18 @@ func funSwitch() {
 		fmt.Println("你该不会是老板吧")
 	}
 }
+
+// select 语句：
+// select {
+// case <- channel1:
+// 	// 执行的代码
+// case value := <- channel2:
+// 	// 执行的代码
+// case channel3 <- value:
+// 	// 执行的代码
+
+// 	// 你可以定义任意数量的 case
+
+// default:
+// 	// 所有通道都没有准备好，执行的代码
+// }
