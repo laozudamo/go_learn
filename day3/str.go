@@ -22,7 +22,9 @@ func main() {
 
 	// splitStr()
 
-	trimStr()
+	// trimStr()
+
+	replaceStr()
 }
 
 // strings.join()
@@ -85,8 +87,21 @@ func trimStr() {
 }
 
 //replace
+func replaceStr() {
+	str := "hello"
+
+	// 复数全部
+	v := strings.Replace(str, "l", "S", -1)
+
+	v1 := strings.ReplaceAll(str, "l", "J")
+	fmt.Printf("str: %v\n", v)
+	fmt.Printf("v1: %v\n", v1)
+}
 
 //repeat
+func repeatStr() {
+	//  strings.
+}
 
 //index
 
