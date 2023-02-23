@@ -59,6 +59,6 @@ func queryData() {
 	}
 }
 
-func queryManyRow() {
+// func queryManyRow() {
 
-}
+// }
