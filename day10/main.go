@@ -62,3 +62,7 @@ func queryData() {
 // func queryManyRow() {
 
 // }
+
+/*
+	增删改查
+*/
